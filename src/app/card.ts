@@ -17,8 +17,9 @@ export class Card {
         this.color = color;
     }
 
-    private color = (this.suit === Suit.Clubs || this.suit === Suit.Spades) ?
-                    Color.Black : Color.Red;
+    private color = 
+        (this.suit === Suit.Clubs || this.suit === Suit.Spades) ?
+            Color.Black : Color.Red;
 
 
     public get suitValue(): string {
@@ -32,6 +33,8 @@ export class Card {
     public get cardName(): string {
         return  this.rankValue + '-' + this.suitValue;
     }
+
+
 
     
 

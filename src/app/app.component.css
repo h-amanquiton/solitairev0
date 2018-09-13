@@ -1,0 +1,37 @@
+
+
+.containerGameTable {
+    border: 1px solid black;
+    height: 570px;
+}
+
+.containerFoundation {
+    border: 1px solid green;
+    float: left;
+    height: 550px;
+    margin-top: 10px;
+}
+
+.containerDeck {
+    border: 1px solid blue;
+    float: right;
+    height: 130px;
+    width: 90px;
+    
+}
+
+.containerWaste {
+    border: 1px solid green;
+    float: right;
+    margin-right: 30px;
+    height: 130px;
+    width: 90px;
+}
+
+.containerTableau {
+    border:  1px solid blue;
+    width: 800px;
+    height: 420px;
+    float: right;
+    margin-top: 140px;
+}
