@@ -7,14 +7,15 @@ enum Color { Black = 0, Red };
 
 export class Card {
 
-    public readonly rank: number;
-    public readonly suit: number;
+     rank: number;
+     suit: number;
+     
    
 
-    public constructor (rank: Rank, suit: Suit, color: Color) {
+    public constructor (rank: Rank, suit: Suit,) {
         this.rank = rank;
         this.suit = suit;
-        this.color = color;
+        
     }
 
     private color = 
@@ -33,6 +34,12 @@ export class Card {
     public get cardName(): string {
         return  this.rankValue + '-' + this.suitValue;
     }
+
+    public get image(): string {
+        return "../assets/" + this.suit + "-" + this.rank + ".JPG";
+    }
+
+    
 
 
 
